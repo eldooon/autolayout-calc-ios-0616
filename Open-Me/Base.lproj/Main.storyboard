@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8mU-NI-3PM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8mU-NI-3PM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,176 +18,258 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-Le-zPn">
-                                <rect key="frame" x="29" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="1"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="1">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-pc-thl">
-                                <rect key="frame" x="110" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="2"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-kW-1cq">
-                                <rect key="frame" x="191" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="3">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
-                                <rect key="frame" x="29" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="4"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="4">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
-                                <rect key="frame" x="110" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="5">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
-                                <rect key="frame" x="191" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="6"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="6">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
-                                <rect key="frame" x="29" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="7"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="7">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
-                                <rect key="frame" x="110" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="8"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="8">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
-                                <rect key="frame" x="29" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="0">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
-                                <rect key="frame" x="110" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="."/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title=".">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
-                                <rect key="frame" x="191" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="="/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="=">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
-                                <rect key="frame" x="272" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="-"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="-">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
-                                <rect key="frame" x="272" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="x"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="x">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
-                                <rect key="frame" x="272" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="/"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="/">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
-                                <rect key="frame" x="272" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="+"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="+">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
-                                <rect key="frame" x="191" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="9"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="9">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvx-iX-YZJ" userLabel="Top View">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvx-iX-YZJ" userLabel="Top View">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
-                                        <rect key="frame" x="18" y="127" width="284" height="30"/>
-                                        <animations/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
+                                        <rect key="frame" x="18" y="8" width="284" height="30"/>
                                         <accessibility key="accessibilityConfiguration" label="displayTextField"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="topContainerView">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
+                                <constraints>
+                                    <constraint firstItem="yV0-KJ-CTc" firstAttribute="height" secondItem="Lvx-iX-YZJ" secondAttribute="height" multiplier="0.1" id="KI4-yk-Pxp"/>
+                                    <constraint firstItem="yV0-KJ-CTc" firstAttribute="width" secondItem="Lvx-iX-YZJ" secondAttribute="width" multiplier="0.9" id="NSu-8I-VEz"/>
+                                    <constraint firstItem="yV0-KJ-CTc" firstAttribute="centerX" secondItem="Lvx-iX-YZJ" secondAttribute="centerX" id="Olk-sK-xhq"/>
+                                    <constraint firstItem="yV0-KJ-CTc" firstAttribute="centerY" secondItem="Lvx-iX-YZJ" secondAttribute="centerY" constant="-110" id="fcC-ht-Dd3"/>
+                                </constraints>
                             </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6F3-7J-744">
+                                <rect key="frame" x="20" y="284" width="288" height="284"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5is-0x-lvV">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-Le-zPn">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="1"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button1Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="xtP-wt-LbQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-pc-thl">
+                                                <rect key="frame" x="72" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="2"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="2">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button2Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="X63-Ei-b4g"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-kW-1cq">
+                                                <rect key="frame" x="144" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="3">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button3Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="yb6-yl-q2u"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
+                                                <rect key="frame" x="216" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="/"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="/">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonDivTapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="4kM-tq-uR7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-GK-UET">
+                                        <rect key="frame" x="0.0" y="71" width="288" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="4"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="4">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button4Button:" destination="8mU-NI-3PM" eventType="touchUpInside" id="u9Y-OE-c7Z"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
+                                                <rect key="frame" x="72" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="5">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button5Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="tFU-HI-KDt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
+                                                <rect key="frame" x="144" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="6"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="6">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button6Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="bRn-cE-Rxg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
+                                                <rect key="frame" x="216" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="x"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="x">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonMultTapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="8L8-qd-2fu"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jPf-qk-mh2">
+                                        <rect key="frame" x="0.0" y="142" width="288" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="7"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="7">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button7Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="nAc-BB-59c"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
+                                                <rect key="frame" x="72" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="8"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="8">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button8Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="kus-3q-PdP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
+                                                <rect key="frame" x="144" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="9"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="9">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button9Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="1ax-B8-Myr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
+                                                <rect key="frame" x="216" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="-"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="-">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonMinusTapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="o1d-OM-Auj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="87Z-MM-XGx">
+                                        <rect key="frame" x="0.0" y="213" width="288" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="0"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button0Tapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="5ai-xx-n4t"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
+                                                <rect key="frame" x="72" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="."/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title=".">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonDotTapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="w2f-Ls-3H3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
+                                                <rect key="frame" x="144" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="="/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonEqualTapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="9Q5-u9-VVQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
+                                                <rect key="frame" x="216" y="0.0" width="72" height="71"/>
+                                                <accessibility key="accessibilityConfiguration" label="+"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonAddTapped:" destination="8mU-NI-3PM" eventType="touchUpInside" id="uW2-IN-8sQ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fEN-GK-UET" firstAttribute="width" secondItem="6F3-7J-744" secondAttribute="width" id="5Yp-7s-BAJ"/>
+                                    <constraint firstItem="87Z-MM-XGx" firstAttribute="width" secondItem="6F3-7J-744" secondAttribute="width" id="7pD-eo-RwR"/>
+                                    <constraint firstItem="fEN-GK-UET" firstAttribute="height" secondItem="6F3-7J-744" secondAttribute="height" multiplier="0.25" id="Hx8-5h-ywa"/>
+                                    <constraint firstItem="5is-0x-lvV" firstAttribute="width" secondItem="6F3-7J-744" secondAttribute="width" id="JQo-Q7-mDa"/>
+                                    <constraint firstItem="jPf-qk-mh2" firstAttribute="height" secondItem="6F3-7J-744" secondAttribute="height" multiplier="0.25" id="cy7-Y3-hwh"/>
+                                    <constraint firstItem="5is-0x-lvV" firstAttribute="height" secondItem="6F3-7J-744" secondAttribute="height" multiplier="0.25" id="ic9-le-hKO"/>
+                                    <constraint firstItem="jPf-qk-mh2" firstAttribute="width" secondItem="6F3-7J-744" secondAttribute="width" id="xjX-aU-k3c"/>
+                                    <constraint firstItem="87Z-MM-XGx" firstAttribute="height" secondItem="6F3-7J-744" secondAttribute="height" multiplier="0.25" id="ydm-es-DYB"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6F3-7J-744" firstAttribute="trailing" secondItem="EiG-5C-bgp" secondAttribute="trailingMargin" id="CmR-j8-Hio"/>
+                            <constraint firstItem="6F3-7J-744" firstAttribute="bottom" secondItem="jmo-tK-uKU" secondAttribute="top" constant="-10" id="H52-3r-rNb"/>
+                            <constraint firstItem="6F3-7J-744" firstAttribute="leading" secondItem="EiG-5C-bgp" secondAttribute="leadingMargin" id="KjH-xO-zR1"/>
+                            <constraint firstItem="6F3-7J-744" firstAttribute="height" secondItem="EiG-5C-bgp" secondAttribute="height" multiplier="0.5" id="QH8-2J-TsG"/>
+                            <constraint firstItem="Lvx-iX-YZJ" firstAttribute="top" secondItem="EiG-5C-bgp" secondAttribute="top" id="bER-ru-6Rs"/>
+                            <constraint firstItem="Lvx-iX-YZJ" firstAttribute="width" secondItem="EiG-5C-bgp" secondAttribute="width" id="dgO-bP-RQy"/>
+                            <constraint firstItem="Lvx-iX-YZJ" firstAttribute="leading" secondItem="EiG-5C-bgp" secondAttribute="leading" id="yKt-pX-BUA"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="textField" destination="yV0-KJ-CTc" id="jxs-LN-o26"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ec3-7u-aR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.375" y="142.6056338028169"/>
+            <point key="canvasLocation" x="1269" y="150"/>
         </scene>
     </scenes>
 </document>
